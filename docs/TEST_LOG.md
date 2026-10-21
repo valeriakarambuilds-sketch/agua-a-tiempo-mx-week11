@@ -39,3 +39,16 @@ These observations are local checks, not real pilot outcomes.
 - Negative costs and numerator above denominator are rejected.
 - Costs and 70/30 components calculate correctly.
 - Synthetic thresholds never establish real payment eligibility.
+
+## Money zero-denominator test
+Observed in screenshot:
+- All three 0/0 quality metrics display inconclusive.
+- Actual payment eligibility remains unproven.
+Result: passed for zero denominators.
+
+## Issue MONEY-001
+With all costs at zero, the interface displays a required 10:1
+benefit of MXN 0. Although labeled unproven, this is misleading
+for financial evaluation.
+Expected: zero-cost base cannot support a meaningful 10:1 evaluation.
+Status: observed; fix and retest pending after deployment 1.

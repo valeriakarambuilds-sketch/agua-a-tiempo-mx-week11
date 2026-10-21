@@ -58,3 +58,8 @@ Check ML initialization and missing-source behavior, then build Money scorecard.
 
 ## Next first move
 Test Money zero denominators and threshold scenarios before deployment 1.
+
+## Pre-deployment check
+- Zero-denominator behavior observed and passed.
+- MONEY-001 recorded: misleading zero-cost 10:1 threshold.
+- Next first move: deploy version 1, then fix and retest MONEY-001.
