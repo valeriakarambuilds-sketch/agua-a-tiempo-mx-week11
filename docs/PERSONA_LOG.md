@@ -38,3 +38,24 @@ Remaining issues:
 
 ## Retest
 Pending. Do not claim the persona confusion has been resolved yet.
+
+## Retest attempt using older screenshots
+The first retest still showed the older interface.
+It did not establish whether the implemented changes resolved confusion.
+The revised interface was then deployed and new screenshots supplied.
+
+## Deployed-interface retest
+Reported by the synthetic persona:
+- Item 1 resolved: residents need not complete forms or approve notices.
+- Item 3 resolved: information updates do not promise water restoration.
+- Item 4 explanation resolved: no enrollment or operating delivery route
+  exists in the demo. The operational limitation remains.
+- Item 5 resolved: coordination handles pending review.
+- Opening explanation was considered longer than preferred.
+- SMS navigation link was visible, but its behavior was not demonstrated.
+
+## Interpretation
+The main observed role-confusion issue was resolved in this synthetic
+screenshot retest. This is not evidence of real resident comprehension,
+SMS delivery, utility authorization or pilot impact.
+Technical-language concerns were not fully retested.

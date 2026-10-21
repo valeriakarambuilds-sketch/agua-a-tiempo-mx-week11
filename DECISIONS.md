@@ -85,3 +85,11 @@ Test Money zero denominators and threshold scenarios before deployment 1.
 - Explained pending review and information-update timing.
 - Kept real notice delivery explicitly outside demo scope.
 - Next first move: inspect revised interface and retest in persona chat.
+
+## Persona retest outcome
+- Deployed-interface screenshot retest resolved the main role confusion.
+- Review responsibility and update-versus-restoration wording understood.
+- Real delivery remains outside demo scope and explicitly disclosed.
+- Remaining feedback: opening text is long; SMS link behavior untested.
+- Next first move: verify SMS navigation, finish remaining mechanical
+  checks, and prepare submission PDFs and demo recording.
