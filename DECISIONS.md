@@ -48,3 +48,13 @@ Check the new section, then implement and evaluate the ML advisory.
 
 ## Next first move
 Check ML initialization and missing-source behavior, then build Money scorecard.
+
+## Money increment
+- Added full-cost calculator and explicit 70/30 proposed components.
+- Added synthetic quality scenarios with denominators.
+- Actual eligibility remains unproven regardless of synthetic inputs.
+- Included excluded-household and false-alert counts.
+- ML evaluation observed in screenshot; no real-world validation claimed.
+
+## Next first move
+Test Money zero denominators and threshold scenarios before deployment 1.

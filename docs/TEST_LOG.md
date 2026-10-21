@@ -26,3 +26,16 @@ These observations are local checks, not real pilot outcomes.
 - Analysis responds to missing source.
 - Editing form invalidates previous ML result.
 - ML does not change incident approval or SMS state.
+
+## ML screenshot observation
+- Model initialized and returned an advisory score.
+- Held-out set: 120 synthetic cases.
+- TP 100, TN 11, FP 9, FN 0.
+- Precision 91.7%; recall 100% on this synthetic set only.
+- Missing-source and edit-invalidation checks remain pending.
+
+## Money checks pending
+- Zero denominators remain inconclusive.
+- Negative costs and numerator above denominator are rejected.
+- Costs and 70/30 components calculate correctly.
+- Synthetic thresholds never establish real payment eligibility.
