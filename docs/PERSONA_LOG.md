@@ -59,3 +59,24 @@ The main observed role-confusion issue was resolved in this synthetic
 screenshot retest. This is not evidence of real resident comprehension,
 SMS delivery, utility authorization or pilot impact.
 Technical-language concerns were not fully retested.
+
+## Final SMS-preview screen
+The synthetic persona correctly identified:
+- Fictional incident, source and coordinator.
+- Simulated review without external source verification.
+- No actual SMS sending or receipt.
+- Unconfirmed restoration time.
+- Next information update is not water restoration.
+- Potential 18-hour lead time is not delivery evidence.
+
+Final confusion status:
+1. Coordinator versus resident role: resolved.
+2. Technical language: partly resolved.
+3. Update versus restoration time: resolved.
+4. Delivery limitations: understood; real service unavailable in demo.
+5. Review responsibility and missing preview: resolved.
+6. ML output interpretation: not fully tested; no current result
+   was visible in the final persona screenshot.
+
+The resident's real-world need remains unmet by this demonstration.
+No real notice delivery or pilot impact is claimed.

@@ -60,3 +60,9 @@ Status: observed; fix and retest pending after deployment 1.
 - Positive-cost regression check: MXN 15,000 requires MXN 150,000.
 - Benefit remains explicitly unproven.
 - Deployment 2 and live verification pending.
+
+## Navigation and revised SMS preview
+- User clicked the SMS navigation link and supplied its destination screenshot.
+- Result: link reaches the SMS preview section.
+- After simulated human review, the revised SMS sample was visible.
+- Sample explicitly distinguishes information updates from restoration.
