@@ -33,9 +33,9 @@ function invalidateReview() {
   result.replaceChildren();
   const message = document.createElement("p");
   message.className = "muted";
-  message.textContent = "La información cambió. Revisa nuevamente antes de usar la vista previa.";
+  message.textContent = "La información cambió. La coordinación debe revisarla nuevamente. Las personas residentes no tienen que aprobarla.";
   result.append(message);
-  preview.textContent = "Vista previa retirada: la información necesita una nueva revisión.";
+  preview.textContent = "Sin muestra lista: falta la revisión de la coordinación. No se ha enviado ningún SMS.";
 }
 
 form.addEventListener("input", event => {
@@ -165,7 +165,7 @@ form.addEventListener("submit", event => {
     `Fuente ingresada: ${source}.\n` +
     `Responsable ficticio: ${owner}.\n` +
     `Restablecimiento: no confirmado.\n` +
-    `Próxima actualización: ${displayDate(nextUpdate)}.\n` +
+    `Próxima actualización de información: ${displayDate(nextUpdate)}. No es la hora de regreso del agua.\n` +
     `Sin costo para residentes.`;
 });
 

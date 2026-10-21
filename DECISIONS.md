@@ -78,3 +78,10 @@ Test Money zero denominators and threshold scenarios before deployment 1.
   https://github.com/valeriakarambuilds-sketch/agua-a-tiempo-mx-week11
 - Next first move: complete the fresh-chat persona test,
   fix the worst observed confusion and retest.
+
+## Persona-driven interface change
+- Preserved initial and full-page synthetic persona findings.
+- Clarified coordinator versus resident responsibilities.
+- Explained pending review and information-update timing.
+- Kept real notice delivery explicitly outside demo scope.
+- Next first move: inspect revised interface and retest in persona chat.

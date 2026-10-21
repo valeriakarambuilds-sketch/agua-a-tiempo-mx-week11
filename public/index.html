@@ -20,11 +20,44 @@
     <div>
       <p class="eyebrow">AGUA A TIEMPO MX</p>
       <h1>Información clara antes del corte.</h1>
-      <p>Revisa la evidencia, prepara el aviso y conserva sus límites.</p>
+      <p>Panel de demostración para la coordinación del piloto.</p>
     </div>
   </header>
 
   <main>
+
+    <section id="audience-guide" class="card audience-guide">
+      <p class="eyebrow">¿PARA QUIÉN ES ESTA PANTALLA?</p>
+      <h2>La coordinación prepara los avisos.</h2>
+      <p>
+        Los formularios de esta página son para la persona que revisa
+        las fuentes y los costos del piloto. Como residente,
+        no tienes que completarlos ni aprobar información.
+      </p>
+      <h3>Si eres residente</h3>
+      <p>
+        El piloto propuesto contempla avisos básicos sin costo,
+        sin instalar una app y aunque no tengas agua almacenada
+        o una lectura reciente.
+      </p>
+      <p>
+        <strong>Esta demo no recibe solicitudes ni envía avisos.</strong>
+        No existe aquí un registro para recibir SMS ni un contacto
+        operativo para llamadas, visitas o avisos impresos.
+        Esa ruta debe acordarse antes de un piloto real.
+      </p>
+      <p>
+        “Pendiente de revisión” significa que falta la revisión de
+        la coordinación; no es una tarea para residentes.
+      </p>
+      <p>
+        La próxima actualización es una nueva comunicación del
+        responsable del aviso, no la hora de regreso del agua.
+        En esta demo no hay un responsable real conectado.
+      </p>
+      <a href="#resident-preview">Ver el espacio de muestra del SMS</a>
+    </section>
+  
     <section class="intro">
       <div>
         <p class="eyebrow">01 / REVISIÓN DE INCIDENTES</p>
@@ -42,7 +75,7 @@
     <div class="workspace">
       <section class="card">
         <div class="card-heading">
-          <h2>Revisar incidente</h2>
+          <h2>Revisión por la coordinación</h2>
           <span class="badge">SIM-001</span>
         </div>
 
@@ -86,7 +119,7 @@
               <input id="source-time" type="datetime-local" required>
             </div>
             <div>
-              <label for="next-update">Próxima actualización</label>
+              <label for="next-update">Próxima actualización de información</label>
               <input id="next-update" type="datetime-local" required>
             </div>
           </div>
@@ -136,7 +169,7 @@
           </div>
         </section>
 
-        <section class="card sms-card">
+        <section id="resident-preview" class="card sms-card">
           <p class="eyebrow">VISTA PREVIA SMS · NO ENVIADO</p>
           <h2>Así se leería el aviso</h2>
           <div class="phone-message">
