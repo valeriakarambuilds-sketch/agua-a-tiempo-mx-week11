@@ -70,3 +70,11 @@ Test Money zero denominators and threshold scenarios before deployment 1.
 - Both results were observed in user screenshots.
 - Next first move: deploy version 2 and verify the public URL,
   then complete the fresh-chat persona test and GitHub setup.
+
+## Repository and deployment update
+- Second deployment reported Ready.
+- Follow-up screenshot shows MONEY-001 correction.
+- GitHub repository created:
+  https://github.com/valeriakarambuilds-sketch/agua-a-tiempo-mx-week11
+- Next first move: complete the fresh-chat persona test,
+  fix the worst observed confusion and retest.
