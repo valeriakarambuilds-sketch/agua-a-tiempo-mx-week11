@@ -37,3 +37,14 @@ Open the local interface and check the example, missing review and edits.
 
 ## Next first move
 Check the new section, then implement and evaluate the ML advisory.
+
+## ML increment
+- Added actual logistic-regression training in browser.
+- Fixed-seed synthetic data: 480 training and 120 held-out examples.
+- Positive class means notice requiring attention, not a confirmed event.
+- Synthetic labels include designed ambiguity; no real-world accuracy claim.
+- Model output cannot override incident validation or human review.
+- Outside-zone behavior confirmed by user.
+
+## Next first move
+Check ML initialization and missing-source behavior, then build Money scorecard.
