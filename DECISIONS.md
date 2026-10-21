@@ -27,3 +27,13 @@ No application implementation, test execution or deployment is claimed yet.
 
 ## Next first move
 Open the local interface and check the example, missing review and edits.
+
+## Sensing and geodata increment
+- Added labeled simulated reserve readings: recent, stale and missing.
+- Added local fictional GeoJSON polygons and point-in-polygon matching.
+- No GPS, household map or real sensing is used.
+- Two incident-review states were observed in screenshots.
+- Edit invalidation and new sensing/geodata browser checks remain pending.
+
+## Next first move
+Check the new section, then implement and evaluate the ML advisory.
