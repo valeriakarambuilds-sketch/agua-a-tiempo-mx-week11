@@ -177,7 +177,9 @@
         ? `Exceso sobre el presupuesto: ${currency(total - 15000)}.`
         : `Presupuesto restante: ${currency(15000 - total)}.`,
       `Asignación presupuestal: $150 por hogar por piloto; $50 por hogar-mes. No es un precio al residente.`,
-      `Beneficio atribuible requerido para 10:1: ${currency(total * 10)}. No demostrado.`
+      total > 0
+        ? `Beneficio atribuible requerido para 10:1: ${currency(total * 10)}. No demostrado.`
+        : "Evaluación 10:1: no calculable con costos en cero. Ingresa costos completos; el beneficio sigue sin demostrarse."
     ];
 
     for (const metric of evaluated) {

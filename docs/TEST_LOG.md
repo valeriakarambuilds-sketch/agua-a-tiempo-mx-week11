@@ -52,3 +52,11 @@ benefit of MXN 0. Although labeled unproven, this is misleading
 for financial evaluation.
 Expected: zero-cost base cannot support a meaningful 10:1 evaluation.
 Status: observed; fix and retest pending after deployment 1.
+
+## MONEY-001 fix and local retest
+- Before: zero costs displayed a misleading MXN 0 benefit threshold.
+- Fix: zero costs now display "10:1 not calculable with zero costs."
+- Zero-cost retest: passed, observed in screenshot.
+- Positive-cost regression check: MXN 15,000 requires MXN 150,000.
+- Benefit remains explicitly unproven.
+- Deployment 2 and live verification pending.

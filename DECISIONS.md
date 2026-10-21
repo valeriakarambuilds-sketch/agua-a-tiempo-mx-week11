@@ -63,3 +63,10 @@ Test Money zero denominators and threshold scenarios before deployment 1.
 - Zero-denominator behavior observed and passed.
 - MONEY-001 recorded: misleading zero-cost 10:1 threshold.
 - Next first move: deploy version 1, then fix and retest MONEY-001.
+
+## MONEY-001 correction verified locally
+- Zero-cost financial evaluation now states not calculable.
+- Positive-cost calculation remains correct.
+- Both results were observed in user screenshots.
+- Next first move: deploy version 2 and verify the public URL,
+  then complete the fresh-chat persona test and GitHub setup.
