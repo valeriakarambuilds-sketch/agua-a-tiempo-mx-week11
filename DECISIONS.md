@@ -100,3 +100,8 @@ Test Money zero denominators and threshold scenarios before deployment 1.
 - Technical vocabulary and ML comprehension remain improvement areas.
 - Next first move: finish remaining mechanical checks and prepare
   PERSONA PDF, BUILDCHAT PDF and demo video.
+
+## Additional checks completed
+- Source edits invalidate prior review and SMS preview.
+- Inconsistent comprehension counts are rejected.
+- Next first move: prepare submission PDFs and record the demo.

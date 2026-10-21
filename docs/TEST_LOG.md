@@ -66,3 +66,11 @@ Status: observed; fix and retest pending after deployment 1.
 - Result: link reaches the SMS preview section.
 - After simulated human review, the revised SMS sample was visible.
 - Sample explicitly distinguishes information updates from restoration.
+
+## Additional mechanical checks
+- Source-edit invalidation: user confirmed that editing the source
+  withdraws the SMS preview and unchecks simulated human review.
+  Result: passed.
+- Invalid comprehension count: entered 2 understood / 1 sampled.
+  Screenshot shows numerator-above-denominator rejection.
+  Result: passed.
