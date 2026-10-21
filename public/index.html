@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agua a Tiempo MX</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="demo-banner">
+    DEMO · Datos ficticios · Sin conexión con una autoridad
+  </div>
+
+  <header class="page-header">
+    <div class="brand-icon" aria-hidden="true">≈</div>
+    <div>
+      <p class="eyebrow">AGUA A TIEMPO MX</p>
+      <h1>Información clara antes del corte.</h1>
+      <p>Revisa la evidencia, prepara el aviso y conserva sus límites.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">01 / REVISIÓN DE INCIDENTES</p>
+        <h2>Un aviso empieza por su fuente.</h2>
+        <p>
+          Esta demostración permite revisar información ficticia.
+          Las lecturas de reserva no confirman cortes de la red pública.
+        </p>
+      </div>
+      <button id="load-example" class="secondary" type="button">
+        Cargar ejemplo ficticio
+      </button>
+    </section>
+
+    <div class="workspace">
+      <section class="card">
+        <div class="card-heading">
+          <h2>Revisar incidente</h2>
+          <span class="badge">SIM-001</span>
+        </div>
+
+        <p class="muted">
+          Usa únicamente información inventada. Los cambios se pierden
+          al recargar la página.
+        </p>
+
+        <form id="incident-form" novalidate>
+          <div class="form-row">
+            <div>
+              <label for="zone">Zona ficticia</label>
+              <select id="zone" required>
+                <option value="">Selecciona una zona</option>
+                <option value="A">Zona A · ficticia</option>
+                <option value="B">Zona B · ficticia</option>
+                <option value="C">Zona C · ficticia</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="event-type">Tipo de incidente</label>
+              <select id="event-type" required>
+                <option value="scheduled">Corte programado</option>
+                <option value="unexpected">Falla inesperada</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="source">Referencia de la fuente ficticia</label>
+          <input id="source" maxlength="120"
+            placeholder="Ej. Boletín ficticio SIM-014" required>
+
+          <label for="owner">Rol responsable ficticio</label>
+          <input id="owner" maxlength="80"
+            placeholder="Ej. Coordinación de turno de demostración" required>
+
+          <div class="form-row">
+            <div>
+              <label for="source-time">Fecha y hora de la fuente</label>
+              <input id="source-time" type="datetime-local" required>
+            </div>
+            <div>
+              <label for="next-update">Próxima actualización</label>
+              <input id="next-update" type="datetime-local" required>
+            </div>
+          </div>
+
+          <label for="start-time" id="start-label">
+            Inicio del corte programado
+          </label>
+          <input id="start-time" type="datetime-local" required>
+          <p id="start-help" class="field-help">
+            Se usa para calcular la anticipación del aviso.
+          </p>
+
+          <label for="note">Descripción breve del incidente</label>
+          <textarea id="note" rows="3" maxlength="300"
+            placeholder="Describe el caso ficticio sin inventar causas ni horarios de regreso."
+            required></textarea>
+
+          <p class="notice">
+            <strong>Restablecimiento: no confirmado.</strong>
+            Esta demo no verifica fuentes externas.
+          </p>
+
+          <label class="check-row">
+            <input id="human-review" type="checkbox">
+            <span>
+              Simular que un responsable autorizado revisó la fuente.
+              Esta selección no acredita autorización real.
+            </span>
+          </label>
+
+          <button class="primary" type="submit">
+            Revisar y preparar vista previa
+          </button>
+        </form>
+      </section>
+
+      <aside class="results">
+        <section class="card" aria-labelledby="review-title">
+          <div class="card-heading">
+            <h2 id="review-title">Estado de la revisión</h2>
+            <span id="status" class="badge">Sin revisar</span>
+          </div>
+          <div id="review-result" aria-live="polite">
+            <p class="muted">
+              Carga un ejemplo o completa el formulario para comenzar.
+            </p>
+          </div>
+        </section>
+
+        <section class="card sms-card">
+          <p class="eyebrow">VISTA PREVIA SMS · NO ENVIADO</p>
+          <h2>Así se leería el aviso</h2>
+          <div class="phone-message">
+            <p id="sms-preview">
+              La vista previa aparecerá después de revisar el incidente.
+            </p>
+          </div>
+          <p class="muted">
+            No se capturan teléfonos y no se envía ningún mensaje.
+          </p>
+        </section>
+
+        <section class="card access-card">
+          <h2>El aviso debe llegar sin app.</h2>
+          <p>
+            No tener smartphone, agua almacenada o una lectura reciente
+            no debe impedir recibir información básica.
+          </p>
+          <p>
+            <strong>Ruta fuera de la app:</strong>
+            el piloto real requiere acordar un contacto para llamada,
+            visita o aviso impreso. Esta demo no opera esa ruta.
+          </p>
+          <p><strong>Costo para residentes: $0.</strong></p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      Agua a Tiempo MX · Piloto de demostración · No restaura el suministro
+      ni confirma la calidad del agua.
+    </footer>
+  </main>
+</body>
+</html>
